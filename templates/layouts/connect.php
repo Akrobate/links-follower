@@ -1,3 +1,9 @@
-<h1>LC</h1>
-
-<?=$template_content?>
+<html>
+	<head>
+		<link rel=stylesheet type="text/css" href="public/css/style.css" />
+		<script src="public/js/jquery.js"></script>		
+	</head>
+	<body>
+		<?=$template_content?>
+	</body>
+</html>
