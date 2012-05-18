@@ -16,7 +16,8 @@
 	require_once(PATH_LIBS."request.class.php");
 	require_once(PATH_LIBS."sql.class.php");
 	require_once(PATH_LIBS."users.class.php");
-	
+	require_once(PATH_LIBS."checker.class.php");
+	require_once(PATH_LIBS."flux.class.php");	
 	
 	$controller = request::get("controller");
 	$action = request::get("action");
