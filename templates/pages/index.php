@@ -6,9 +6,8 @@
 				<p class="url"><?=$item['url']?></p>
 			</td>
 			<td>
-				<a href="?controller=pages&action=index&id=<?=$item['id']?>">
-					view pages
-				</a>
+				<a href="?controller=links&action=index&id=<?=$item['id']?>">voir les liens</a>
+				<a href="?controller=pages&action=delete&id=<?=$item['id']?>">effacer</a>
 			</td>
 		</tr>
 	<? endforeach; ?>
