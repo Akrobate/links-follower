@@ -29,6 +29,9 @@
 		$action = "index";
 	}
 	
+	
+
+	
 	if (users::isConnected()) {
 		if ((file_exists(PATH_SCRIPTS . $controller . "/" . $action . ".php")) && ((PATH_TEMPLATES . $controller . "/" . $action . ".php"))) {
 			require_once (PATH_SCRIPTS . $controller . "/" . $action . ".php");
@@ -54,3 +57,5 @@
 		require_once( PATH_TEMPLATES . "layouts/connect.php");	
 	}
 ?>
+
+

@@ -1,1 +1,18 @@
 /* Feuille de style */
+
+/* Architecture */
+
+a { color: #1155CC; font-family: Tahoma; font-size: 14px; text-decoration: none;}
+p { font-family: Tahoma; font-size: 14px; }
+
+td { border-bottom: 1px solid #000; }
+
+p.title { margin: 0px; }
+p.url { margin: 0px; }
+
+.leftZone { width:250px; float: left; }
+.mainZone { width: 500px; float: left; }
+
+
+.spacer { clear:both; }
+
