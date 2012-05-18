@@ -1,6 +1,6 @@
 <!-- template -->
 
-<h1>Ajouter un site</h1>
+<h2>Ajouter un site</h2>
 
 <? if (@$error_msg != "") : ?>
 	<div class="error_msg">
