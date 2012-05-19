@@ -38,7 +38,7 @@ class checker {
 		$score = abs(strlen($str_url) - strlen($str_source));
 		
 		
-		if ($score > 10) {
+		if ($score > 30) {
 			// Changement repere
 			$result = true;
 			sql::query('UPDATE links SET source="'.addslashes($str_url).'", checked_date=NOW() WHERE id='.$id_link);
