@@ -28,8 +28,8 @@
 				<a href="cron/updatelinks.php" target="_blank">Verifier les urls</a><br />
 				<a href="?controller=users&action=logout">Deconnection</a><br />
 				<br />
-				<a href="#">A propos</a><br />
 				<a href="#">Aide</a><br />
+				<a href="#">A propos</a><br />
 				<a href="#">Configurer crontab</a><br />
 			</div>
 			<div class="mainZone">
