@@ -21,7 +21,8 @@
 					
 					<div class="actions">
 						<a href="?controller=links&action=delete&id=<?=$item['id']?>&id_page=<?=$id_page?>&id_site=<?=$id_site?>">effacer</a> - 
-						<a href="?controller=links&action=markreaden&id=<?=$item['id']?>&id_page=<?=$id_page?>&id_site=<?=$id_site?>">Marquer comme lu</a>						
+						<a href="?controller=links&action=markreaden&id=<?=$item['id']?>&id_page=<?=$id_page?>&id_site=<?=$id_site?>">marquer comme lu</a> - 
+						<a href="<?=$item['url']?>" target="_blank" >voir le lien</a>
 					</div>
 					<p class="url"><?=$item['url']?></p>
 				</div>
