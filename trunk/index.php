@@ -39,7 +39,7 @@
 			ob_start();
 				require_once (PATH_TEMPLATES . $controller . "/" . $action . ".php");
 			//$template_content = ob_get_contents();
-			$template_content = ob_get_flush();
+			$template_content = ob_get_contents();
 			ob_end_clean();
 			
 			require_once( PATH_TEMPLATES . "layouts/main.php");	
