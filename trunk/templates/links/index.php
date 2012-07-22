@@ -1,8 +1,10 @@
 <!-- Template links/index -->
 
-<a href="?controller=sites&action=index">liste des sites</a> - 
-<a href="?controller=pages&action=index&id_site=<?=$id_site?>">liste des pages</a> - 
-<a href="?controller=links&action=add&id_site=<?=$id_site?>&id_page=<?=$id_page?>">ajouter un lien</a>
+<a class="linkTop" href="?controller=sites&action=index">liste des sites</a>
+<a class="linkTop" href="?controller=pages&action=index&id_site=<?=$id_site?>">liste des pages</a>
+<a class="linkTop" href="?controller=links&action=add&id_site=<?=$id_site?>&id_page=<?=$id_page?>">ajouter un lien</a>
+
+<a class="linkTop" href="#" onclick="<? foreach($data as $item): ?>window.open('<?=$item['url']?>');<? endforeach; ?>" >ouvrir tous les liens</a>
 
 <table class="listeResults">
 <? $i = 0; ?>
