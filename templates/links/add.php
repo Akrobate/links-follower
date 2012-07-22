@@ -1,9 +1,9 @@
 <!-- template links/add -->
 
 
-<a href="?controller=sites&action=index">liste des sites</a> - 	
-<a href="?controller=pages&action=index&id_site=<?=$id_site?>">liste des pages</a> - 
-<a href="?controller=links&action=index&id_site=<?=$id_site?>&id_page=<?=$id_page?>">liste des liens</a>
+<a class="linkTop" href="?controller=sites&action=index">liste des sites</a>
+<a class="linkTop" href="?controller=pages&action=index&id_site=<?=$id_site?>">liste des pages</a>
+<a class="linkTop" href="?controller=links&action=index&id_site=<?=$id_site?>&id_page=<?=$id_page?>">liste des liens</a>
 <div class="add">
 	<h2>Ajouter un lien</h2>
 
