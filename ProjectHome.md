@@ -1,0 +1,1 @@
+Script open source qui vous permettra de suivre les liens de votre site web par page.
